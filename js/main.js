@@ -44,6 +44,10 @@ $(document).ready(function() {
             });
             return false;
         });
+
+        $('.hire-me').click(function(){
+            $('.navbar-collapse').removeClass('in');
+        });
     });
 
 
